@@ -2,8 +2,7 @@
   "name": "front-end",
   "version": "0.1.0",
   "private": true,
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist",
+  "homepage": "https://richardpassos01.github.io/show-do-milhao",
   "dependencies": {
     "@material-ui/core": "^4.10.0",
     "firebase": "^7.14.6",
@@ -23,6 +22,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
