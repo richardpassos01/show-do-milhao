@@ -74,10 +74,6 @@ class Question extends Component {
       return array.indexOf(questionNumber) > -1;
     });
 
-    5.000
-    50.000
-    500.0000 
-   
     const questionValue = {
       0: 1000,
       1: 10000,
