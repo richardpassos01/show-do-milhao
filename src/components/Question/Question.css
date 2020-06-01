@@ -1,0 +1,129 @@
+.Question {
+    border: 1px solid yellow;
+    margin-right: -1em;
+    height: 4em;
+    padding: .5em;
+    border-bottom-right-radius: 1em;
+    border-top-right-radius: 1em;
+    color: white;
+    font: bold 20px arial;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Question .Content {
+    width: 35em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.Question, .Choices {
+    background: linear-gradient(90deg, rgba(250,17,17,1) 0%, rgba(108,24,31,1) 26%, rgba(121,23,30,1) 31%, rgba(164,21,26,1) 48%, rgba(174,21,25,1) 52%, rgba(199,20,22,1) 62%, rgba(250,17,17,1) 82%, rgba(250,17,17,1) 85%);
+}
+
+.Choices {
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+}
+
+.Choices {
+    height: 3em;
+    border: 1px solid yellow;
+    border-radius: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.MuiListItemText-primary {
+    width: 2em;
+    height: 2em;
+    background-color: white;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: blue;
+    font: bold 16px arial;
+    font-weight: bold;
+    margin-left: 1em !important;
+}
+
+.MuiListItemText-secondary {
+    color: white !important;
+    font: bold 16px arial !important;
+    text-transform: uppercase;
+    margin-left: 1em !important;
+}
+
+.MuiListItem-root {
+    padding-bottom: 0 !important;
+}
+
+.MuiListItemText-inset {
+    padding-left: 0 !important;
+    justify-content: end;
+}
+
+.CurrentValue {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 1em;
+}
+
+.CurrentValue .Box {
+    min-width: 4em;
+    height: 1.5em;
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: red;
+    font: bold 40px arial;
+    text-transform: uppercase;
+    border-radius: .5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Success {
+    background: linear-gradient(270deg, #4c9928, #c4f789, #87b651, #8bc447);
+    background-size: 800% 800%;
+
+    -webkit-animation: AnimationName 3s ease infinite;
+    -moz-animation: AnimationName 3s ease infinite;
+    animation: AnimationName 3s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+
+@media only screen and (max-width: 600px) {
+    .Question {
+        margin-right: 0;
+    }  
+  }

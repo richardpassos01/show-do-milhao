@@ -1,0 +1,29 @@
+body {
+  background: rgb(5,109,187); 
+  background: linear-gradient(90deg, rgba(47,92,142,1) 0%, rgba(43,60,83,1) 0%, rgba(0,8,18,1) 31%, rgba(35,53,219,1) 57%, rgba(9,95,135,1) 97%);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

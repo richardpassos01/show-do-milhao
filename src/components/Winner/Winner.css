@@ -1,0 +1,11 @@
+.Winner .Container {
+    padding: 2em;
+}
+
+.Winner .Container .Image {
+    width: 100%;
+}
+
+.Winner .InitLink {
+    margin-bottom: 2em;
+}

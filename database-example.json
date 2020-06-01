@@ -1,0 +1,84 @@
+{
+    "questions": [{
+        "id": 1,
+        "question": "Qual capital da holanda?",
+        "choices": [
+            {
+                "response": "amsterda",
+                "isCorrect": true
+            },
+            {
+                "response": "osasco",
+                "isCorrect": false
+            },
+            {
+                "response": "itajuba",
+                "isCorrect": false
+            },
+            {
+                "response": "riacho doce",
+                "isCorrect": false
+            }
+        ]
+     },
+     { 
+        "id": 2,
+        "question": "O que é um lambari?",
+        "choices": [
+            {
+                "response": "um carro",
+                "isCorrect": false
+            },
+            {
+                "response": "um peixe",
+                "isCorrect": true
+            },
+            {
+                "response": "machado de assis",
+                "isCorrect": false
+            },
+            {
+                "response": "um disco voados",
+                "isCorrect": true
+            }
+        ]
+     }, 
+     { 
+        "id": 3,
+        "question": "Qual o oposto de caro?",
+        "choices": [
+            {
+                "response": "muito caro",
+                "isCorrect": false
+            },
+            {
+                "response": "barato",
+                "isCorrect": true
+            },
+            {
+                "response": "carissimo",
+                "isCorrect": false
+            },
+            {
+                "response": "carro",
+                "isCorrect": false
+            }
+        ]
+     },
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    ]
+}
+ 

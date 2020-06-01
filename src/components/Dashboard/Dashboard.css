@@ -1,0 +1,17 @@
+.Dasboard {
+    display: flex;
+}
+
+.Dasboard .Left-content,.Right-content {
+  width: 100%;
+}
+
+.Dasboard .Left-content {
+  margin-top: 5em;
+}
+
+@media only screen and (max-width: 600px) {
+  .Dasboard .Right-content {
+    display: none;
+  }  
+}

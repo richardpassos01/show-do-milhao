@@ -1,0 +1,32 @@
+.Home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 15em;
+    margin-top: 10em;
+}
+.Home .InitLink {
+    text-decoration: none;
+}
+
+.Home .InitGame {
+    width: 7em;
+    height: 7em;
+    border-radius: 10em;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    text-decoration: none;
+    justify-content: center;
+    color: #9a3c3c;
+    font: bold 10px solid arial;
+    text-transform: uppercase;
+
+    background: rgb(243, 224, 183);
+    background: linear-gradient(90deg, rgb(218, 255, 50) 0%, rgba(243, 255, 11, 0.56) 54%, rgba(248,226,15,1) 92%, rgba(243,255,11,1) 97%, rgba(253,231,12,1) 100%);
+    background-size: 800% 800%;
+    animation: AnimationName 3s ease infinite;
+}
